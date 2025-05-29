@@ -1,9 +1,17 @@
 <template>
-  <HomeView />
+  <RouterView />
 </template>
 
 <script setup>
-import HomeView from './views/HomeView.vue';
+import { useAuthStore } from '../src/stores/auth'
+import { onMounted } from 'vue'
+
+
+const authStore = useAuthStore()
+
+onMounted(() => {
+  authStore.initAuthListener()
+})
 </script>
 
 <style scoped>

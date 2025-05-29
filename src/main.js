@@ -18,6 +18,8 @@ import Column from 'primevue/column';
 import ToastService from 'primevue/toastservice';
 import InputText from 'primevue/inputtext';
 import Password from 'primevue/password';
+import Divider from 'primevue/divider'
+import Message from 'primevue/message'
 
 // Initialize the app
 const app = createApp(App)
@@ -37,6 +39,8 @@ app.component('DataTable', DataTable)
 app.component('Column', Column)
 app.component('InputText', InputText)
 app.component('Password', Password)
+app.component('Divider', Divider)
+app.component('Message', Message)
 
 // Mount the app
 app.mount('#app')

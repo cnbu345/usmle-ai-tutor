@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@firebase/auth": "^1.10.6",
     "@primevue/themes": "^4.3.4",
     "chart.js": "^4.4.9",
     "firebase": "^11.8.1",
