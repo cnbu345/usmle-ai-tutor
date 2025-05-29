@@ -1,0 +1,55 @@
+[
+  {
+    "id": "cardiac_pharm",
+    "title": "Cardiac Pharmacology",
+    "learningStyle": "visual",
+    "visualDiagram": "https://i.imgur.com/XYZ123.png",
+    "visualDiagramDescription": "Diagram showing beta blockers binding to cardiac cells",
+    "audioSummary": "https://example.com/audio/cardiac.mp3",
+    "readingNotes": "Beta blockers reduce heart rate by blocking sympathetic activity. Key drugs: metoprolol, propranolol.",
+    "kinestheticActivity": "Drag each drug to its mechanism: [Beta blockers] -> [Decrease cAMP]",
+    "quizQuestions": [
+      {
+        "question": "Which drug class reduces heart rate by blocking beta-1 receptors?",
+        "options": ["ACE inhibitors", "Beta blockers", "Calcium channel blockers"],
+        "correctAnswer": "Beta blockers",
+        "explanation": "Beta blockers competitively inhibit catecholamine effects on beta-1 receptors in the heart."
+      }
+    ]
+  },
+  {
+    "id": "renal_physiology",
+    "title": "Renal Physiology",
+    "learningStyle": "auditory",
+    "audioSummary": "https://example.com/audio/renal.mp3",
+    "audioTranscript": "The nephron filters blood at the glomerulus, reabsorbs 99% of filtrate, and secretes waste...",
+    "visualDiagram": "https://i.imgur.com/ABC456.png",
+    "readingNotes": "Key formulas: GFR = (PGC - PBS) - πGC. JG apparatus senses tubular NaCl.",
+    "kinestheticActivity": "Simulate Na+ reabsorption by sorting transport proteins (SGLT2, Na+/K+ ATPase)",
+    "quizQuestions": [
+      {
+        "question": "Where does most tubular reabsorption occur?",
+        "options": ["Glomerulus", "Proximal tubule", "Collecting duct"],
+        "correctAnswer": "Proximal tubule",
+        "explanation": "The proximal tubule reabsorbs 65% of filtrate, including all glucose and amino acids."
+      }
+    ]
+  },
+  {
+    "id": "microbiology_bacteria",
+    "title": "Gram-Positive Bacteria",
+    "learningStyle": "kinesthetic",
+    "kinestheticActivity": "Drag each bacterium to its disease: [S. aureus] -> [Abscess]",
+    "visualDiagram": "https://i.imgur.com/DEF789.png",
+    "audioSummary": "https://example.com/audio/bacteria.mp3",
+    "readingNotes": "S. aureus: catalase+, coagulase+, causes TSS. Streptococcus: catalase-, beta-hemolytic.",
+    "quizQuestions": [
+      {
+        "question": "Which bacterium is catalase-positive?",
+        "options": ["Streptococcus pyogenes", "Staphylococcus aureus", "Enterococcus faecalis"],
+        "correctAnswer": "Staphylococcus aureus",
+        "explanation": "Staphylococci are catalase-positive; streptococci and enterococci are catalase-negative."
+      }
+    ]
+  }
+]
