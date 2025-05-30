@@ -1,4 +1,12 @@
 {
-  "indexes": [],
+  "indexes": [
+    {
+      "collectionGroup": "modules",
+      "fields": [
+        { "fieldPath": "highYield", "order": "DESCENDING" },
+        { "fieldPath": "nbmeFrequency", "order": "DESCENDING" }
+      ]
+    }
+  ],
   "fieldOverrides": []
 }
